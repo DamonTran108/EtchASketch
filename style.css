@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'CustomFont'; /* Name your font family */
+    src: url('ThatSoundsGreat-yYLE3.ttf'); /* Locate the .ttf file within your directory*/
+  }
+
+html{
+    background-color: #181818;
+
+    font-family: 'CustomFont';
+
+}
+.body {
+
+    flex:1;
+
+    display: flex;
+
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+	align-items: center;
+    padding: 0;
+	margin: 0;
+    background-color: #181818;
+
+
+    font-family: 'CustomFont';
+	
+}
+
+.header{
+
+    padding-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    font-size: xx-large;
+    color: aquamarine;
+
+    background-color: 181818;
+    gap:20px;
+
+    
+}
+
+.webTitle {
+
+    font-size: 70px;
+}
+
+.title{
+    padding-top: 50px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+    
+}
+
+.gridContainer {
+
+    
+
+    display: flex;
+
+    flex-wrap: wrap;
+    width:960px;
+    height: 960px;
+   
+    background-color: white;
+    min-height: 0;
+    min-width: 0;
+
+ 
+
+}
+
+.mainContainer {
+
+   
+    display: flex;
+    justify-content: space-evenly;
+
+  
+   
+}
+
+
+.optionsContainer {
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    background-color: #202020;
+
+    color: aquamarine;
+
+    width: 400px;
+    
+    gap : 50px;
+    
+
+    font-size: larger;
+
+    font-weight: bolder;
+    
+
+
+
+}
+
+.penColorContainer {
+
+    padding-top: 50px;
+
+    display: flex;
+
+  
+
+    align-items: center;
+
+   
+    justify-content: flex-start;
+    margin-left: 30px;
+    gap : 10px;
+}
+
+
+
+#penColor, #bgColor {
+
+    width: 100px;
+    height: 50px;
+}
+
+
+.gridWrapper{
+  
+    display: flex;
+    background-color: #202020;
+
+    height: 1050px;
+    width: 1050px;
+    align-items: center;
+    justify-content: center;
+ 
+
+
+    
+}
+
+.colourChangeContainer {
+
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    gap:20px;
+    
+
+    
+    
+    
+    width: 400px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+
+   
+}
+
+
+.btnContainer{
+    
+
+    
+   
+    width:350px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+ 
+
+
+    gap:20px;
+}
+
+
+button {
+    font-family: 'CustomFont';
+    padding: 10px;
+
+    width:350px;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    color: aquamarine;
+    border: 1px solid aquamarine;
+
+    font-size: larger;
+
+    font-weight: bolder;
+    border-radius: 100px;
+
+
+
+}
+
+.optionsFooterContainer {
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
